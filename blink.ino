@@ -7,7 +7,6 @@
 int redPin = 12;
 int yellowPin = 13;
 int greenPin = 11;
-int q;
 
 void setup() {
   // initialize outputs
@@ -30,11 +29,11 @@ void loop() {
   int theNum = random(3);
   
   if ( theNum == 1 ) {
-    q = flasher(redPin);
+    flasher(redPin);
   } else if ( theNum == 2 ) {
-    q = flasher(yellowPin);
+    flasher(yellowPin);
   } else {
-    q = flasher(greenPin);
+    flasher(greenPin);
   } 
 }
 
