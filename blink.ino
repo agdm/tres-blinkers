@@ -16,7 +16,7 @@ void setup() {
 }
 
   
-int flasher( int ledPin ) {
+void flasher( int ledPin ) {
   digitalWrite(ledPin, HIGH);
   delay(500);
   digitalWrite(ledPin, LOW);
